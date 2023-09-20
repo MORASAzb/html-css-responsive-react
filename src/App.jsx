@@ -75,28 +75,28 @@ function App() {
 
 
 
-  const togglelike1 = () => {
-    setIsLike1(!isPlaying1);
+ const togglelike1 = () => {
+    setIsLike1(!isLike1);
   };
 
   const togglelike2 = () => {
-    setIsLike2(!isPlaying2);
+    setIsLike2(!isLike2);
   };
 
   const togglelike3 = () => {
-    setIsLike3(!isPlaying3);
+    setIsLike3(!isLike3);
   };
 
   const togglelike4 = () => {
-    setIsLike4(!isPlaying4);
+    setIsLike4(!isLike4);
   };
 
   const togglelike5 = () => {
-    setIsLike5(!isPlaying5);
+    setIsLike5(!isLike5);
   };
 
   const togglelike6 = () => {
-    setIsLike6(!isPlaying6);
+    setIsLike6(!isLike6);
   };
 
 
