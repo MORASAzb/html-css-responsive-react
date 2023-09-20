@@ -1,0 +1,320 @@
+@media screen and (max-width:1200px)and (min-width:769px) {
+
+    .navigation1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        list-style-type: none;
+        text-align: center;
+        gap: 30px;
+        visibility: visible;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.14px;
+
+    }
+
+    .menu1 {
+        visibility: visible;
+        display: flex;
+        margin-right: 40px;
+
+    }
+
+
+    .hamburger-menu {
+        display: none;
+    }
+
+
+    .button-top {
+        display: block;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border: none;
+        background: #0432DF;
+        color: aliceblue;
+    }
+
+    .second-in-top {
+        margin-top: 90px;
+    }
+
+    .title-second-in-top {
+        width: 100%;
+        color: #EEE;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 146.5%;
+        letter-spacing: -0.72px;
+    }
+
+    .description-second-in-top {
+        color: #ACAFB8;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        letter-spacing: -1px;
+        width: 100%;
+    }
+
+
+    .search-second-in-top {
+        width: 80vw;
+    }
+
+    .try-keyword-second-in-top {
+        color: #EEE;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 172%;
+        letter-spacing: -0.7px;
+        width: 70%;
+
+    }
+
+    .available-second-in-top {
+        color: #EEE;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 172%;
+        width: 290px;
+        width: 100%;
+    }
+
+    .available-second-in-top>a {
+        color: #EEE;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 172%;
+
+    }
+
+
+    .trust {
+        background-color: #FAFAFA;
+        padding: 50px 100px 60px;
+        column-gap: 80px;
+    }
+
+    .title-trust {
+        color: #020D37;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.4px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .picture-of-trust {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .picture-one,
+    .picture-two,
+    .picture-three,
+    .picture-four,
+    .picture-five,
+    .picture-six,
+    .picture-seven {
+        grid-column: span 1;
+    }
+
+    .audio {
+        gap: 20px;
+    }
+
+    .audio-div {
+        margin: 80px 100px 60px;
+    }
+
+    .audio-div2 {
+        gap: 47px;
+    }
+
+
+    .title-audio-div {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: -0.56px;
+        width: 100%;
+    }
+
+    .none1 {
+        display: block;
+    }
+
+    .sign-for-audio {
+        gap: 20px;
+    }
+
+    .name-song1,
+    .time-song2 {
+        display: none;
+    }
+
+    .name-song,
+    .time-song,
+    .artist-song,
+    .comment,
+    .like-dislike {
+        display: block;
+    }
+
+    .info-name-time {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 20%;
+    }
+
+    .comment {
+        width: 250px;
+    }
+
+    .artist-song {
+        color: #4C526A;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 138%;
+        letter-spacing: -0.8px;
+        display: flex;
+        width: max-content;
+        align-items: flex-start;
+        width: 20%;
+    }
+
+
+
+    .title-category {
+
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: -0.56px;
+    }
+
+
+    .first-pic-category,
+    .second-pic-category,
+    .third-pic-category,
+    .fourth-pic-category,
+    .fifth-pic-category,
+    .sixth-pic-category,
+    .seventh-pic-category,
+    .eighth-pic-category,
+    .ninth-pic-category,
+    .tenth-pic-category,
+    .Eleventh-pic-category,
+    .twelfth-pic-category {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduce {
+        display: flex;
+        flex-direction: row;
+        margin: 60px 100px 100px 100px;
+        justify-content: space-between;
+
+    }
+
+    .top-introduce {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .answer-why {
+        text-align: left;
+        width: 50%;
+    }
+
+    .general-introduce {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title-about-general-introduce {
+        font-size: 18px;
+    }
+
+   .footer{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .inside-footer{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   }
+  
+.menu-footer{
+    column-gap: 50px;
+}
+
+   .about-site{
+    width: 25%;
+   }
+
+   .about-website{
+    font-size: 16px;
+   }
+
+   .box-menu-footer{
+    grid-column: span 4;
+    grid-row: span 2;
+    column-gap: 40px;
+    gap: 12px;
+   }
+
+  .div-branch-title-menu-footer{
+    gap: 12px;
+  }
+  
+
+
+
+}
